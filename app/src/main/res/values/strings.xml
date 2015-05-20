@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">quiz_p4</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_display">Submit</string>
+    <string name="next">Next</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_quiz__content">Quiz_Content</string>
+    <string name="title_activity_user_setting">UserSettingActivity</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <PreferenceCategory android:title="Settings">
+        <EditTextPreference
+            android:title="URL"
+            android:summary="Set Your Data URL"
+            android:key="prefUrl"/>
+    </PreferenceCategory>
+
+    <ListPreference
+        android:key="prefUpdateFrequency"
+        android:title="Reminder for Updation"
+        android:summary="Set Update Reminder Frequency"
+        android:entries="@array/updateFrequency"
+        android:entryValues="@array/updateFrequencyValues"
+        />
+
+    <PreferenceCategory android:title="Exit">
+        <Preference android:title="Click to exit" android:key="exitlink"/>
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

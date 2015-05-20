@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="quiz_p4.menglin9.washington.edu.quiz_p4.OverView">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#d7c3dc">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Math"
+            android:id="@+id/title"
+            android:textSize="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#EB939A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: The math problem is design for the primary school intelligent competition practise. The Problem has 5 problems total. Have Fun!"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/intro"
+            android:textColor="#EB939A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Begin"
+            android:id="@+id/begin" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#d7c3dc"
+            android:src="@drawable/math"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/image" />
+    </LinearLayout>
+
+</FrameLayout>
